@@ -9,36 +9,35 @@
     <ImageView
         android:id="@+id/picture"
         style="@style/landscape_picture"
-        android:contentDescription="@string/pictureDescription"
+        android:contentDescription="@string/picture_description"
         android:src="@drawable/paws_cougar" />
 
     <TextView
         android:id="@+id/name"
         style="@style/landscape_headline"
-        android:text="@string/castelloPTA"
-        android:textSize="@dimen/titleTextSize" />
+        android:text="@string/castello_PTA"
+        android:textSize="@dimen/title_text_size" />
 
     <TextView
         android:id="@+id/address"
         style="@style/landscape_body"
-        android:autoLink="map"
+        android:onClick="getMap"
         android:text="@string/address" />
-
     <TextView
-        android:id="@+id/phoneNumber"
+        android:id="@+id/phone_number"
         style="@style/landscape_body"
         android:layout_below="@id/address"
-        android:autoLink="phone"
-        android:text="@string/phoneNumber" />
+        android:onClick="dialNumber"
+        android:text="@string/phone_number" />
 
     <TextView
-        android:id="@+id/webAddress"
+        android:id="@+id/web_address"
         style="@style/landscape_body"
-        android:layout_below="@id/phoneNumber"
-        android:autoLink="web"
-        android:text="@string/webAddress" />
+        android:layout_below="@id/phone_number"
+        android:onClick="webClick"
+        android:text="@string/web_address" />
 
-    <LinearLayout style="@style/iconRow">
+    <LinearLayout style="@style/icon_row">
 
         <ImageView
             style="@style/icon"
@@ -56,7 +55,7 @@
             style="@style/icon"
             android:contentDescription="@string/amazon_smile_description"
             android:onClick="amazonClick"
-            android:paddingTop="@dimen/amazonIconVerticalPadding"
+            android:paddingTop="@dimen/amazon_icon_vertical_padding"
             android:src="@drawable/amazon_32" />
 
         <ImageView

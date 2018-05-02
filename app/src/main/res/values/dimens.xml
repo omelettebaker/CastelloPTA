@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="portraitModeTopMargin">260dp</dimen>
-    <dimen name="headlineBottomMargin">18dp</dimen>
-    <dimen name="iconLayoutWidth">0dp</dimen>
-    <dimen name="amazonIconVerticalPadding">2dp</dimen>
-    <dimen name="bottomMargin">16dp</dimen>
-    <dimen name="iconRowTopMargin">50dp</dimen>
-    <dimen name="iconRowHorizontalMargin">22dp</dimen>
-    <dimen name="titleTextSize">26sp</dimen>
-    <dimen name="bodyTextSize">18dp</dimen>
-    <dimen name="landscape_headline_topMargin">75dp</dimen>
-    <dimen name="landscape_headline_bottomMargin">14dp</dimen>
-    <dimen name="landscape_body_textSize">16sp</dimen>
-    <dimen name="landscape_bodyText_bottomMargin">12dp</dimen>
+    <dimen name="portrait_mode_top_margin">260dp</dimen>
+    <dimen name="headline_bottom_margin">18dp</dimen>
+    <dimen name="icon_layout_width">0dp</dimen>
+    <dimen name="amazon_icon_vertical_padding">2dp</dimen>
+    <dimen name="bottom_margin">16dp</dimen>
+    <dimen name="icon_row_top_margin">50dp</dimen>
+    <dimen name="icon_row_horizontal_margin">22dp</dimen>
+    <dimen name="title_text_size">26sp</dimen>
+    <dimen name="body_text_size">18sp</dimen>
+    <dimen name="landscape_headline_top_margin">75dp</dimen>
+    <dimen name="landscape_headline_bottom_margin">14dp</dimen>
+    <dimen name="landscape_body_text_size">16sp</dimen>
+    <dimen name="landscape_body_text_bottom_margin">12dp</dimen>
 </resources>

@@ -1,14 +1,21 @@
 <resources>
     <string name="app_name">Castello PTA</string>
-    <string name="castelloPTA">Castello Elementary PTA</string>
-    <string name="phoneNumber">Phone: (916) 686&#8211;1725</string>
-    <string name="webAddress">http://blogs.egusd.net/castello/pta</string>
+    <string name="castello_PTA">Castello Elementary PTA</string>
+    <string name="phone_number">Phone: (916) 686&#8211;1725</string>
+    <string name="tel_number">tel:19166861725</string>
+    <string name="web_address">http://blogs.egusd.net/castello/pta</string>
+    <string name="instagram_address">https://www.instagram.com/helencarrcastellopta</string>
+    <string name="facebook_address">https://www.facebook.com/HelenCarrCastelloPTA/</string>
+    <string name="amazon_address">https://smile.amazon.com/ch/20&#8211;3285880</string>
+    <string name="play_store_address">https://play.google.com/store/apps/details?id=com.app_hcces.layout</string>
+    <string name="app_store_address">https://itunes.apple.com/us/app/castello-elementary/id964816008?mt=8</string>
     <string name="instagram_description">link to our Instagram page</string>
     <string name="facebook_description">link to our Facebook page</string>
-    <string name="pictureDescription">picture of our school\'s front sign</string>
+    <string name="picture_description">picture of our school\'s front sign</string>
     <string name="amazon_smile_description">link to our Amazon Smile</string>
     <string name="play_store_description">link to download our app for your iOS device</string>
     <string name="app_store_description">link to download our app for your android device</string>
     <string name="address">9850 Fire Poppy Way\nElk Grove, CA  95757</string>
+    <string name="address_url">geo:0,0?q=Helen+Carr+Castello+Elementary+School</string>
 
 </resources>

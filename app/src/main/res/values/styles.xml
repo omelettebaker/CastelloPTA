@@ -8,43 +8,43 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="mainTitle">
+    <style name="main_title">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_marginBottom">@dimen/headlineBottomMargin</item>
-        <item name="android:layout_marginTop">@dimen/portraitModeTopMargin</item>
+        <item name="android:layout_marginBottom">@dimen/headline_bottom_margin</item>
+        <item name="android:layout_marginTop">@dimen/portrait_mode_top_margin</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
     </style>
 
-    <style name="bodyText">
+    <style name="body_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_marginBottom">@dimen/bottomMargin</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_margin</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/bodyTextSize</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
     </style>
 
 
-    <style name="iconRow">
+    <style name="icon_row">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_below">@id/webAddress</item>
-        <item name="android:layout_marginTop">@dimen/iconRowTopMargin</item>
-        <item name="android:layout_marginLeft">@dimen/iconRowHorizontalMargin</item>
-        <item name="android:layout_marginRight">@dimen/iconRowHorizontalMargin</item>
+        <item name="android:layout_below">@id/web_address</item>
+        <item name="android:layout_marginTop">@dimen/icon_row_top_margin</item>
+        <item name="android:layout_marginLeft">@dimen/icon_row_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/icon_row_horizontal_margin</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_toRightOf">@id/picture</item>
     </style>
 
     <style name="icon">
-        <item name="android:layout_width">@dimen/iconLayoutWidth</item>
+        <item name="android:layout_width">@dimen/icon_layout_width</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
     </style>
@@ -62,11 +62,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_toRightOf">@id/picture</item>
-        <item name="android:layout_marginTop">@dimen/landscape_headline_topMargin</item>
-        <item name="android:layout_marginBottom">@dimen/landscape_headline_bottomMargin</item>
+        <item name="android:layout_marginTop">@dimen/landscape_headline_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/landscape_headline_bottom_margin</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -75,10 +75,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_toRightOf">@id/picture</item>
-        <item name="android:layout_marginBottom">@dimen/landscape_bodyText_bottomMargin</item>
+        <item name="android:layout_marginBottom">@dimen/landscape_body_text_bottom_margin</item>
         <item name="android:layout_below">@id/name</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/landscape_body_textSize</item>
+        <item name="android:textSize">@dimen/landscape_body_text_size</item>
         <item name="android:textColor">@color/white</item>
     </style>
 
