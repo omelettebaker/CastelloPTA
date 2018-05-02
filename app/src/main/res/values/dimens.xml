@@ -5,7 +5,7 @@
     <dimen name="iconLayoutWidth">0dp</dimen>
     <dimen name="amazonIconVerticalPadding">2dp</dimen>
     <dimen name="bottomMargin">16dp</dimen>
-    <dimen name="iconRowTopMargin">65dp</dimen>
+    <dimen name="iconRowTopMargin">50dp</dimen>
     <dimen name="iconRowHorizontalMargin">22dp</dimen>
     <dimen name="titleTextSize">26sp</dimen>
     <dimen name="bodyTextSize">18dp</dimen>

@@ -7,70 +7,69 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/picture"
         style="@style/landscape_picture"
         android:contentDescription="@string/pictureDescription"
-        android:id="@+id/picture"
         android:src="@drawable/paws_cougar" />
 
     <TextView
-        style="@style/landscape_headline"
         android:id="@+id/name"
-        android:textSize="@dimen/titleTextSize"
-        android:text="@string/castelloPTA" />
+        style="@style/landscape_headline"
+        android:text="@string/castelloPTA"
+        android:textSize="@dimen/titleTextSize" />
 
     <TextView
-        style="@style/landscape_body"
         android:id="@+id/address"
-        android:text="@string/address"
-        android:autoLink="map"/>
+        style="@style/landscape_body"
+        android:autoLink="map"
+        android:text="@string/address" />
 
     <TextView
-        style="@style/landscape_body"
         android:id="@+id/phoneNumber"
+        style="@style/landscape_body"
         android:layout_below="@id/address"
-        android:text="@string/phoneNumber"
-        android:autoLink="phone"/>
+        android:autoLink="phone"
+        android:text="@string/phoneNumber" />
 
     <TextView
-        style="@style/landscape_body"
         android:id="@+id/webAddress"
+        style="@style/landscape_body"
         android:layout_below="@id/phoneNumber"
-        android:text="@string/webAddress"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        android:text="@string/webAddress" />
 
-    <LinearLayout
-        style="@style/iconRow">
+    <LinearLayout style="@style/iconRow">
 
         <ImageView
             style="@style/icon"
             android:contentDescription="@string/instagram_description"
-            android:src="@drawable/instagram_32"
-            android:onClick="instagramClick"/>
+            android:onClick="instagramClick"
+            android:src="@drawable/instagram_32" />
 
         <ImageView
             style="@style/icon"
             android:contentDescription="@string/facebook_description"
-            android:src="@drawable/facebook_32"
-            android:onClick="facebookClick"/>
+            android:onClick="facebookClick"
+            android:src="@drawable/facebook_32" />
 
         <ImageView
             style="@style/icon"
             android:contentDescription="@string/amazon_smile_description"
+            android:onClick="amazonClick"
             android:paddingTop="@dimen/amazonIconVerticalPadding"
-            android:src="@drawable/amazon_32"
-            android:onClick="amazonClick"/>
+            android:src="@drawable/amazon_32" />
 
         <ImageView
             style="@style/icon"
             android:contentDescription="@string/play_store_description"
-            android:src="@drawable/play_32"
-            android:onClick="playStoreClick"/>
+            android:onClick="playStoreClick"
+            android:src="@drawable/play_32" />
 
         <ImageView
             style="@style/icon"
             android:contentDescription="@string/app_store_description"
-            android:src="@drawable/appstore_32"
-            android:onClick="appStoreClick"/>
+            android:onClick="appStoreClick"
+            android:src="@drawable/appstore_32" />
 
     </LinearLayout>
 
