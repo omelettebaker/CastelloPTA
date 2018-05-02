@@ -9,7 +9,7 @@
     <dimen name="iconRowHorizontalMargin">22dp</dimen>
     <dimen name="titleTextSize">26sp</dimen>
     <dimen name="bodyTextSize">18dp</dimen>
-    <dimen name="landscape_headline_topMargin">50dp</dimen>
+    <dimen name="landscape_headline_topMargin">75dp</dimen>
     <dimen name="landscape_headline_bottomMargin">14dp</dimen>
     <dimen name="landscape_body_textSize">16sp</dimen>
     <dimen name="landscape_bodyText_bottomMargin">12dp</dimen>
