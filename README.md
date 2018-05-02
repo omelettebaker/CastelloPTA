@@ -1,5 +1,5 @@
-# Single Screen App -- CastelloPTA
-## Project 1: Android Basics Nanodegree Course
+# CastelloPTA - Single Screen App
+## Android Basics Nanodegree Course: Project 1
 - Project specifications described in ![Udacity Project 1 Rubric](docs/Project_1_Rubric.pdf)
 
 ## Screenshot
