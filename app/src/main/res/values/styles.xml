@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/headlineBottomMargin</item>
+        <item name="android:layout_marginTop">@dimen/portraitModeTopMargin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="bodyText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/bottomMargin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/bodyTextSize</item>
+    </style>
+
+
+    <style name="iconRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/webAddress</item>
+        <item name="android:layout_marginTop">@dimen/iconRowTopMargin</item>
+        <item name="android:layout_marginLeft">@dimen/iconRowHorizontalMargin</item>
+        <item name="android:layout_marginRight">@dimen/iconRowHorizontalMargin</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_toRightOf">@id/picture</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">@dimen/iconLayoutWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="landscape_picture" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="landscape_headline" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_toRightOf">@id/picture</item>
+        <item name="android:layout_marginTop">@dimen/landscape_headline_topMargin</item>
+        <item name="android:layout_marginBottom">@dimen/landscape_headline_bottomMargin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/landscape_headline_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="landscape_body">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_toRightOf">@id/picture</item>
+        <item name="android:layout_marginBottom">@dimen/landscape_bodyText_bottomMargin</item>
+        <item name="android:layout_below">@id/name</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/landscape_body_textSize</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Castello PTA</string>
+    <string name="castelloPTA">Castello Elementary PTA</string>
+    <string name="phoneNumber">Phone: (916) 686&#8211;1725</string>
+    <string name="webAddress">http://blogs.egusd.net/castello/pta/</string>
+    <string name="instagram_description">link to our Instagram page</string>
+    <string name="facebook_description">link to our Facebook page</string>
+    <string name="pictureDescription">picture of our school\'s front sign</string>
+    <string name="amazon_smile_description">link to our Amazon Smile</string>
+    <string name="play_store_description">link to download our app for your iOS device</string>
+    <string name="app_store_description">link to download our app for your android device</string>
+    <string name="address">9850 Fire Poppy Way\nElk Grove, CA  95757</string>
+
+</resources>

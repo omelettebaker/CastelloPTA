@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="portraitModeTopMargin">260dp</dimen>
+    <dimen name="headlineBottomMargin">18dp</dimen>
+    <dimen name="iconLayoutWidth">0dp</dimen>
+    <dimen name="amazonIconVerticalPadding">2dp</dimen>
+    <dimen name="bottomMargin">16dp</dimen>
+    <dimen name="iconRowTopMargin">65dp</dimen>
+    <dimen name="iconRowHorizontalMargin">22dp</dimen>
+    <dimen name="titleTextSize">26sp</dimen>
+    <dimen name="bodyTextSize">18dp</dimen>
+    <dimen name="landscape_headline_topMargin">50dp</dimen>
+    <dimen name="landscape_headline_bottomMargin">14dp</dimen>
+    <dimen name="landscape_body_textSize">16sp</dimen>
+    <dimen name="landscape_bodyText_bottomMargin">12dp</dimen>
+</resources>

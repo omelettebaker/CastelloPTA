@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_glow"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/mainTitle"
+        android:text="@string/castelloPTA" />
+
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/bodyText"
+        android:layout_below="@id/name"
+        android:autoLink="map"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        style="@style/bodyText"
+        android:layout_below="@id/address"
+        android:autoLink="phone"
+        android:text="@string/phoneNumber" />
+
+    <TextView
+        android:id="@+id/webAddress"
+        style="@style/bodyText"
+        android:layout_below="@id/phoneNumber"
+        android:autoLink="web"
+        android:text="@string/webAddress" />
+
+    <LinearLayout style="@style/iconRow">
+
+        <ImageView
+            style="@style/icon"
+            android:contentDescription="@string/instagram_description"
+            android:onClick="instagramClick"
+            android:src="@drawable/instagram_32" />
+
+        <ImageView
+            style="@style/icon"
+            android:contentDescription="@string/facebook_description"
+            android:onClick="facebookClick"
+            android:src="@drawable/facebook_32" />
+
+        <ImageView
+            style="@style/icon"
+            android:contentDescription="@string/amazon_smile_description"
+            android:onClick="amazonClick"
+            android:paddingTop="@dimen/amazonIconVerticalPadding"
+            android:src="@drawable/amazon_32" />
+
+        <ImageView
+            style="@style/icon"
+            android:contentDescription="@string/play_store_description"
+            android:onClick="playStoreClick"
+            android:src="@drawable/play_32" />
+
+        <ImageView
+            style="@style/icon"
+            android:contentDescription="@string/app_store_description"
+            android:onClick="appStoreClick"
+            android:src="@drawable/appstore_32" />
+
+    </LinearLayout>
+
+</RelativeLayout>
