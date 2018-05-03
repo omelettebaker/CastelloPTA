@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     // opens PTA's website when link is clicked.
     public void webClick(View v) {
-        String url = getString(R.string.web_address);
+        String url = getString(R.string.web_url);
         openBrowser(url);
     }
 
