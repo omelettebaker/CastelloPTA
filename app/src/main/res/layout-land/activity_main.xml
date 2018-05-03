@@ -14,30 +14,37 @@
 
     <TextView
         android:id="@+id/name"
-        style="@style/landscape_headline"
-        android:text="@string/castello_PTA"
-        android:textSize="@dimen/title_text_size" />
+        style="@style/main_title_landscape"
+        android:text="@string/castello_PTA" />
 
-    <TextView
-        android:id="@+id/address"
-        style="@style/landscape_body"
-        android:onClick="getMap"
-        android:text="@string/address" />
-    <TextView
-        android:id="@+id/phone_number"
-        style="@style/landscape_body"
-        android:layout_below="@id/address"
-        android:onClick="dialNumber"
-        android:text="@string/phone_number" />
+    <LinearLayout
+        android:id="@+id/info"
+        style="@style/body_layout">
 
-    <TextView
-        android:id="@+id/web_address"
-        style="@style/landscape_body"
-        android:layout_below="@id/phone_number"
-        android:onClick="webClick"
-        android:text="@string/web_address" />
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawableStart="@drawable/phone_icon"
+            android:onClick="dialNumber"
+            android:text="@string/phone_number" />
 
-    <LinearLayout style="@style/icon_row">
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/location_icon"
+            android:drawableStart="@drawable/location_icon"
+            android:onClick="getMap"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/http_icon"
+            android:drawableStart="@drawable/http_icon"
+            android:onClick="webClick"
+            android:text="@string/web_address" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/landscape_icon_row">
 
         <ImageView
             style="@style/icon"

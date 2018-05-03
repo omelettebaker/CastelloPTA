@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Castello PTA</string>
     <string name="castello_PTA">Castello Elementary PTA</string>
-    <string name="phone_number">Phone: (916) 686&#8211;1725</string>
+    <string name="phone_number">(916) 686&#8211;1725</string>
     <string name="tel_number">tel:19166861725</string>
-    <string name="web_address">http://blogs.egusd.net/castello/pta</string>
+    <string name="web_address">blogs.egusd.net/castello/pta</string>
     <string name="instagram_address">https://www.instagram.com/helencarrcastellopta</string>
     <string name="facebook_address">https://www.facebook.com/HelenCarrCastelloPTA/</string>
     <string name="amazon_address">https://smile.amazon.com/ch/20&#8211;3285880</string>

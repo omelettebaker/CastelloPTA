@@ -12,27 +12,32 @@
         style="@style/main_title"
         android:text="@string/castello_PTA" />
 
-
-    <TextView
-        android:id="@+id/address"
-        style="@style/body_text"
+    <LinearLayout
+        android:id="@+id/info"
         android:layout_below="@id/name"
-        android:onClick="getMap"
-        android:text="@string/address" />
+        style="@style/body_layout">
 
-    <TextView
-        android:id="@+id/phone_number"
-        style="@style/body_text"
-        android:layout_below="@id/address"
-        android:onClick="dialNumber"
-        android:text="@string/phone_number" />
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawableStart="@drawable/phone_icon"
+            android:onClick="dialNumber"
+            android:text="@string/phone_number" />
 
-    <TextView
-        android:id="@+id/web_address"
-        style="@style/body_text"
-        android:layout_below="@id/phone_number"
-        android:onClick="webClick"
-        android:text="@string/web_address" />
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/location_icon"
+            android:drawableStart="@drawable/location_icon"
+            android:onClick="getMap"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/body_text"
+            android:drawableLeft="@drawable/http_icon"
+            android:drawableStart="@drawable/http_icon"
+            android:onClick="webClick"
+            android:text="@string/web_address" />
+    </LinearLayout>
 
     <LinearLayout style="@style/icon_row">
 
