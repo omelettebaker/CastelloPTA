@@ -3,7 +3,7 @@
 - Design and implement single-screen app that displays information about a small business or organization
 - Guidelines described in [Udacity Project 1 Rubric](docs/Project_1_Rubric.pdf)
 
-# Features
+## Features
 - Layout variant for landscape mode
 - Use of 3 different intent types for phone call, displaying location on map, and opening website
 
